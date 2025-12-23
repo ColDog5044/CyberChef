@@ -77,7 +77,7 @@ You can use as many operations as you like in simple or complex ways. Some examp
 ## Example Recipes and Operations
 
 ### Prebuilt Example Recipes
-The example recipes listed above are embedded in this README file (lines 66-75 in the "How it works" section) as URL links with encoded recipe configurations. To add or modify these example recipes, edit the corresponding link references at the bottom of this file (lines 143-152).
+The example recipes listed above are embedded in this README file (lines 66-75 in the "How it works" section) as URL links with encoded recipe configurations. To add or modify these example recipes, edit the corresponding link references at the bottom of this file (lines 151-161).
 
 ### Operations
 Individual operations (the building blocks of recipes) are defined as separate JavaScript modules in the `src/core/operations/` directory. Each operation is a self-contained module that can be composed into recipes. To add a new operation or modify existing ones, see the [Contributing wiki page](https://github.com/gchq/CyberChef/wiki/Contributing).
