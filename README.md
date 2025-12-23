@@ -74,6 +74,15 @@ You can use as many operations as you like in simple or complex ways. Some examp
  - [Perform AES decryption, extracting the IV from the beginning of the cipher stream][10]
  - [Automagically detect several layers of nested encoding][12]
 
+## Example Recipes and Operations
+
+### Prebuilt Example Recipes
+The example recipes listed above are embedded in this README file (lines 66-75 in the "How it works" section) as URL links with encoded recipe configurations. To add or modify these example recipes, edit the corresponding link references at the bottom of this file (lines 143-152).
+
+### Operations
+Individual operations (the building blocks of recipes) are defined as separate JavaScript modules in the `src/core/operations/` directory. Each operation is a self-contained module that can be composed into recipes. To add a new operation or modify existing ones, see the [Contributing wiki page](https://github.com/gchq/CyberChef/wiki/Contributing).
+
+
 
 ## Features
 
@@ -90,7 +99,6 @@ You can use as many operations as you like in simple or complex ways. Some examp
      - You can also step through the recipe one operation at a time to see what the data looks like at each stage.
  - Save and load recipes
      - If you come up with an awesome recipe that you know you’ll want to use again, just click "Save recipe" and add it to your local storage. It'll be waiting for you next time you visit CyberChef.
-     - Saved recipes are stored in your browser's localStorage under the key `savedRecipes` and persist across sessions as long as you use the same browser profile and don't clear your browser data.
      - You can also copy the URL, which includes your recipe and input, to easily share it with others.
  - Search
      - If you know the name of the operation you want or a word associated with it, start typing it into the search field and any matching operations will immediately be shown.
